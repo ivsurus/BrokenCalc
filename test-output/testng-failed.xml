@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Calculator]">
+  <test name="lalalal(failed)">
+    <classes>
+      <class name="test.testng.MultDoubleTest">
+        <methods>
+          <include name="showFinishTestTimeAndDuration"/>
+          <include name="oneValueMultAnother" invocation-numbers="0 3"/>
+          <include name="destroyCalc"/>
+          <include name="createCalc"/>
+          <include name="showStartTestTime"/>
+        </methods>
+      </class> <!-- test.testng.MultDoubleTest -->
+      <class name="test.testng.DivLongTest">
+        <methods>
+          <include name="showFinishTestTimeAndDuration"/>
+          <include name="oneValueDivAnother" invocation-numbers="1 2"/>
+          <include name="destroyCalc"/>
+          <include name="createCalc"/>
+          <include name="showStartTestTime"/>
+        </methods>
+      </class> <!-- test.testng.DivLongTest -->
+      <class name="test.testng.SqrtDoubleTest">
+        <methods>
+          <include name="showFinishTestTimeAndDuration"/>
+          <include name="destroyCalc"/>
+          <include name="sqrtFromValue" invocation-numbers="1"/>
+          <include name="createCalc"/>
+          <include name="showStartTestTime"/>
+        </methods>
+      </class> <!-- test.testng.SqrtDoubleTest -->
+      <class name="test.testng.CtgDoubleTest">
+        <methods>
+          <include name="showFinishTestTimeAndDuration"/>
+          <include name="destroyCalc"/>
+          <include name="ctgFromValue" invocation-numbers="0"/>
+          <include name="createCalc"/>
+          <include name="showStartTestTime"/>
+        </methods>
+      </class> <!-- test.testng.CtgDoubleTest -->
+    </classes>
+  </test> <!-- lalalal(failed) -->
+</suite> <!-- Failed suite [Calculator] -->

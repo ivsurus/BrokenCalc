@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BrokenCalculator">
+  	
+<!-- Runner for all tests without those that are marked with logic group  -->
+
+<test name="All_groups_exept_logic">
+  <groups>
+    <run>
+      <exclude name="logic"/>
+      <include name="arithmetic"/>
+      <include name="trigonometry"/>
+	</run>
+  </groups>
+  
+  <packages>
+    <package name="test.testng" />
+  </packages> 
+ </test>
+
+</suite>

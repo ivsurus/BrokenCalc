@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BrokenCalculator" parallel="classes" thread-count="8">
+	<test name="All_tests_parallel">
+  		<packages>
+   			 <package name="test.testng" />
+  		</packages> 
+	</test>
+</suite>

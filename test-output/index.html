@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Calculator">
+              <span class="suite-name border-failed">Calculator</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Calculator">
+                    <span>C:\Users\Ivan_Surus\workspace\BrokenCalculator\src\resources\testng\runTestnAll.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Calculator">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Calculator">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Calculator">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Calculator">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Calculator">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Calculator">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 6 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Calculator" class="hide-methods failed suite-Calculator"> (hide)</a> <!-- hide-methods failed suite-Calculator -->
+                      <a href="#" panel-name="suite-Calculator" class="show-methods failed suite-Calculator"> (show)</a> <!-- show-methods failed suite-Calculator -->
+                    </span>
+                    <div class="method-list-content failed suite-Calculator">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.CtgDoubleTest" hash-for-method="ctgFromValue(1, 0.642)">ctgFromValue(1, 0.642)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.DivLongTest" hash-for-method="oneValueDivAnother(1, 10, 0.1)">oneValueDivAnother(1, 10, 0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.DivLongTest" hash-for-method="oneValueDivAnother(-9, 6, -1.5)">oneValueDivAnother(-9, 6, -1.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.MultDoubleTest" hash-for-method="oneValueMultAnother(2.5, 5.7, 14.25)">oneValueMultAnother(2.5, 5.7, 14.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.MultDoubleTest" hash-for-method="oneValueMultAnother(0.7, 0.5, 0.35)">oneValueMultAnother(0.7, 0.5, 0.35)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SqrtDoubleTest" hash-for-method="sqrtFromValue(-100.0, NaN)">sqrtFromValue(-100.0, NaN)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Calculator -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Calculator" class="hide-methods passed suite-Calculator"> (hide)</a> <!-- hide-methods passed suite-Calculator -->
+                      <a href="#" panel-name="suite-Calculator" class="show-methods passed suite-Calculator"> (show)</a> <!-- show-methods passed suite-Calculator -->
+                    </span>
+                    <div class="method-list-content passed suite-Calculator">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.NegativeLongTest" hash-for-method="NegativeValueCheck(0, false)">NegativeValueCheck(0, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.NegativeLongTest" hash-for-method="NegativeValueCheck(-9, true)">NegativeValueCheck(-9, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.NegativeLongTest" hash-for-method="NegativeValueCheck(1, false)">NegativeValueCheck(1, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.DivLongTest" hash-for-method="checkDivisionByZeroThrowsException">checkDivisionByZeroThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.DivLongTest" hash-for-method="oneValueDivAnother(0, 10, 0.0)">oneValueDivAnother(0, 10, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.DivLongTest" hash-for-method="oneValueDivAnother(20, 5, 4.0)">oneValueDivAnother(20, 5, 4.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SubDoubleTest" hash-for-method="oneValueMinusAnother(-10.0, -10.0, 0.0)">oneValueMinusAnother(-10.0, -10.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SubDoubleTest" hash-for-method="oneValueMinusAnother(-9.0, 6.0, -15.0)">oneValueMinusAnother(-9.0, 6.0, -15.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SubDoubleTest" hash-for-method="oneValueMinusAnother(20.0, 15.0, 5)">oneValueMinusAnother(20.0, 15.0, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SubDoubleTest" hash-for-method="oneValueMinusAnother(0.05, 0.651123456, -0.601123456)">oneValueMinusAnother(0.05, 0.651123456, -0.601123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SubDoubleTest" hash-for-method="oneValueMinusAnother(0.0, 0.0, 0.0)">oneValueMinusAnother(0.0, 0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.MultDoubleTest" hash-for-method="oneValueMultAnother(0.0, 4.0, 0.0)">oneValueMultAnother(0.0, 4.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.MultDoubleTest" hash-for-method="oneValueMultAnother(-9.0, 6.0, -54.0)">oneValueMultAnother(-9.0, 6.0, -54.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SumLongTest" hash-for-method="oneValuePlusAnother(9, 6, 15)">oneValuePlusAnother(9, 6, 15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SumLongTest" hash-for-method="oneValuePlusAnother(20, 15, 35)">oneValuePlusAnother(20, 15, 35)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SumLongTest" hash-for-method="oneValuePlusAnother(1, -10, -9)">oneValuePlusAnother(1, -10, -9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SumLongTest" hash-for-method="oneValuePlusAnother(0, 0, 0)">oneValuePlusAnother(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SinDoubleTest" hash-for-method="sinFromValue(1.0, 0.841)">sinFromValue(1.0, 0.841)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SinDoubleTest" hash-for-method="sinFromValue(0.0, 0.0)">sinFromValue(0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SinDoubleTest" hash-for-method="sinFromValue(100, -0.506)">sinFromValue(100, -0.506)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SqrtDoubleTest" hash-for-method="sqrtFromValue(0.0, 0.0)">sqrtFromValue(0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SqrtDoubleTest" hash-for-method="sqrtFromValue(0.09, 0.3)">sqrtFromValue(0.09, 0.3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SqrtDoubleTest" hash-for-method="sqrtFromValue(100.0, 10.0)">sqrtFromValue(100.0, 10.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Calculator" title="test.testng.SqrtDoubleTest" hash-for-method="sqrtFromValue(0.4, 0.632)">sqrtFromValue(0.4, 0.632)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Calculator -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Calculator" class="panel Calculator">
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.testng.MultDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMultAnother(2.5, 5.7, 14.25)">
+                  </a> <!-- oneValueMultAnother(2.5, 5.7, 14.25) -->
+                  <span class="method-name">oneValueMultAnother</span>
+                  <span class="parameters">(2.5, 5.7, 14.25)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [14.25] but found [14.0]
+	at test.testng.MultDoubleTest.oneValueMultAnother(MultDoubleTest.java:26)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMultAnother(0.7, 0.5, 0.35)">
+                  </a> <!-- oneValueMultAnother(0.7, 0.5, 0.35) -->
+                  <span class="method-name">oneValueMultAnother</span>
+                  <span class="parameters">(0.7, 0.5, 0.35)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.35] but found [0.0]
+	at test.testng.MultDoubleTest.oneValueMultAnother(MultDoubleTest.java:26)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.testng.DivLongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueDivAnother(1, 10, 0.1)">
+                  </a> <!-- oneValueDivAnother(1, 10, 0.1) -->
+                  <span class="method-name">oneValueDivAnother</span>
+                  <span class="parameters">(1, 10, 0.1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of operation expected [0.1] but found [0.0]
+	at test.testng.DivLongTest.oneValueDivAnother(DivLongTest.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueDivAnother(-9, 6, -1.5)">
+                  </a> <!-- oneValueDivAnother(-9, 6, -1.5) -->
+                  <span class="method-name">oneValueDivAnother</span>
+                  <span class="parameters">(-9, 6, -1.5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of operation expected [-1.5] but found [-1.0]
+	at test.testng.DivLongTest.oneValueDivAnother(DivLongTest.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.testng.SqrtDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sqrtFromValue(-100.0, NaN)">
+                  </a> <!-- sqrtFromValue(-100.0, NaN) -->
+                  <span class="method-name">sqrtFromValue</span>
+                  <span class="parameters">(-100.0, NaN)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NaN] but found [10.0]
+	at test.testng.SqrtDoubleTest.sqrtFromValue(SqrtDoubleTest.java:26)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.testng.CtgDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ctgFromValue(1, 0.642)">
+                  </a> <!-- ctgFromValue(1, 0.642) -->
+                  <span class="method-name">ctgFromValue</span>
+                  <span class="parameters">(1, 0.642)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.642] but found [0.7615941559557649]
+	at test.testng.CtgDoubleTest.ctgFromValue(CtgDoubleTest.java:22)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testng.SubDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMinusAnother(-10.0, -10.0, 0.0)">
+                  </a> <!-- oneValueMinusAnother(-10.0, -10.0, 0.0) -->
+                  <span class="method-name">oneValueMinusAnother</span>
+                  <span class="parameters">(-10.0, -10.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMinusAnother(-9.0, 6.0, -15.0)">
+                  </a> <!-- oneValueMinusAnother(-9.0, 6.0, -15.0) -->
+                  <span class="method-name">oneValueMinusAnother</span>
+                  <span class="parameters">(-9.0, 6.0, -15.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMinusAnother(20.0, 15.0, 5)">
+                  </a> <!-- oneValueMinusAnother(20.0, 15.0, 5) -->
+                  <span class="method-name">oneValueMinusAnother</span>
+                  <span class="parameters">(20.0, 15.0, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMinusAnother(0.05, 0.651123456, -0.601123456)">
+                  </a> <!-- oneValueMinusAnother(0.05, 0.651123456, -0.601123456) -->
+                  <span class="method-name">oneValueMinusAnother</span>
+                  <span class="parameters">(0.05, 0.651123456, -0.601123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMinusAnother(0.0, 0.0, 0.0)">
+                  </a> <!-- oneValueMinusAnother(0.0, 0.0, 0.0) -->
+                  <span class="method-name">oneValueMinusAnother</span>
+                  <span class="parameters">(0.0, 0.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testng.MultDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMultAnother(0.0, 4.0, 0.0)">
+                  </a> <!-- oneValueMultAnother(0.0, 4.0, 0.0) -->
+                  <span class="method-name">oneValueMultAnother</span>
+                  <span class="parameters">(0.0, 4.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueMultAnother(-9.0, 6.0, -54.0)">
+                  </a> <!-- oneValueMultAnother(-9.0, 6.0, -54.0) -->
+                  <span class="method-name">oneValueMultAnother</span>
+                  <span class="parameters">(-9.0, 6.0, -54.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testng.DivLongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDivisionByZeroThrowsException">
+                  </a> <!-- checkDivisionByZeroThrowsException -->
+                  <span class="method-name">checkDivisionByZeroThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueDivAnother(0, 10, 0.0)">
+                  </a> <!-- oneValueDivAnother(0, 10, 0.0) -->
+                  <span class="method-name">oneValueDivAnother</span>
+                  <span class="parameters">(0, 10, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValueDivAnother(20, 5, 4.0)">
+                  </a> <!-- oneValueDivAnother(20, 5, 4.0) -->
+                  <span class="method-name">oneValueDivAnother</span>
+                  <span class="parameters">(20, 5, 4.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testng.NegativeLongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NegativeValueCheck(0, false)">
+                  </a> <!-- NegativeValueCheck(0, false) -->
+                  <span class="method-name">NegativeValueCheck</span>
+                  <span class="parameters">(0, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NegativeValueCheck(-9, true)">
+                  </a> <!-- NegativeValueCheck(-9, true) -->
+                  <span class="method-name">NegativeValueCheck</span>
+                  <span class="parameters">(-9, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NegativeValueCheck(1, false)">
+                  </a> <!-- NegativeValueCheck(1, false) -->
+                  <span class="method-name">NegativeValueCheck</span>
+                  <span class="parameters">(1, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testng.SqrtDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sqrtFromValue(0.0, 0.0)">
+                  </a> <!-- sqrtFromValue(0.0, 0.0) -->
+                  <span class="method-name">sqrtFromValue</span>
+                  <span class="parameters">(0.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sqrtFromValue(0.09, 0.3)">
+                  </a> <!-- sqrtFromValue(0.09, 0.3) -->
+                  <span class="method-name">sqrtFromValue</span>
+                  <span class="parameters">(0.09, 0.3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sqrtFromValue(100.0, 10.0)">
+                  </a> <!-- sqrtFromValue(100.0, 10.0) -->
+                  <span class="method-name">sqrtFromValue</span>
+                  <span class="parameters">(100.0, 10.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sqrtFromValue(0.4, 0.632)">
+                  </a> <!-- sqrtFromValue(0.4, 0.632) -->
+                  <span class="method-name">sqrtFromValue</span>
+                  <span class="parameters">(0.4, 0.632)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testng.SinDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinFromValue(1.0, 0.841)">
+                  </a> <!-- sinFromValue(1.0, 0.841) -->
+                  <span class="method-name">sinFromValue</span>
+                  <span class="parameters">(1.0, 0.841)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinFromValue(0.0, 0.0)">
+                  </a> <!-- sinFromValue(0.0, 0.0) -->
+                  <span class="method-name">sinFromValue</span>
+                  <span class="parameters">(0.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinFromValue(100, -0.506)">
+                  </a> <!-- sinFromValue(100, -0.506) -->
+                  <span class="method-name">sinFromValue</span>
+                  <span class="parameters">(100, -0.506)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testng.SumLongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValuePlusAnother(9, 6, 15)">
+                  </a> <!-- oneValuePlusAnother(9, 6, 15) -->
+                  <span class="method-name">oneValuePlusAnother</span>
+                  <span class="parameters">(9, 6, 15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValuePlusAnother(20, 15, 35)">
+                  </a> <!-- oneValuePlusAnother(20, 15, 35) -->
+                  <span class="method-name">oneValuePlusAnother</span>
+                  <span class="parameters">(20, 15, 35)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValuePlusAnother(1, -10, -9)">
+                  </a> <!-- oneValuePlusAnother(1, -10, -9) -->
+                  <span class="method-name">oneValuePlusAnother</span>
+                  <span class="parameters">(1, -10, -9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneValuePlusAnother(0, 0, 0)">
+                  </a> <!-- oneValuePlusAnother(0, 0, 0) -->
+                  <span class="method-name">oneValuePlusAnother</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+        </div> <!-- panel Calculator -->
+        <div panel-name="test-xml-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ivan_Surus\workspace\BrokenCalculator\src\resources\testng\runTestnAll.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Calculator&quot;&gt;
+  &lt;test name=&quot;lalalal&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;test.testng&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.testng.CtgDoubleTest&quot;/&gt;
+      &lt;class name=&quot;test.testng.DivLongTest&quot;/&gt;
+      &lt;class name=&quot;test.testng.MultDoubleTest&quot;/&gt;
+      &lt;class name=&quot;test.testng.NegativeLongTest&quot;/&gt;
+      &lt;class name=&quot;test.testng.SinDoubleTest&quot;/&gt;
+      &lt;class name=&quot;test.testng.SqrtDoubleTest&quot;/&gt;
+      &lt;class name=&quot;test.testng.SubDoubleTest&quot;/&gt;
+      &lt;class name=&quot;test.testng.SumLongTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- lalalal --&gt;
+&lt;/suite&gt; &lt;!-- Calculator --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">lalalal (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">arithmetic</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkDivisionByZeroThrowsException</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">oneValueDivAnother</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">oneValueMinusAnother</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">oneValueMultAnother</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">oneValuePlusAnother</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">logic</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">NegativeValueCheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">trigonometry</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ctgFromValue</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sinFromValue</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sqrtFromValue</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Calculator');
+function tableData_Calculator() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'oneValueMultAnother')
+data.setCell(0, 2, 'test.testng.MultDoubleTest')
+data.setCell(0, 3, 32);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sqrtFromValue')
+data.setCell(1, 2, 'test.testng.SqrtDoubleTest')
+data.setCell(1, 3, 16);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'oneValueDivAnother')
+data.setCell(2, 2, 'test.testng.DivLongTest')
+data.setCell(2, 3, 15);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sinFromValue')
+data.setCell(3, 2, 'test.testng.SinDoubleTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'oneValueMinusAnother')
+data.setCell(4, 2, 'test.testng.SubDoubleTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'oneValuePlusAnother')
+data.setCell(5, 2, 'test.testng.SumLongTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkDivisionByZeroThrowsException')
+data.setCell(6, 2, 'test.testng.DivLongTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'NegativeValueCheck')
+data.setCell(7, 2, 'test.testng.NegativeLongTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sqrtFromValue')
+data.setCell(8, 2, 'test.testng.SqrtDoubleTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'oneValueMinusAnother')
+data.setCell(9, 2, 'test.testng.SubDoubleTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'oneValueMultAnother')
+data.setCell(10, 2, 'test.testng.MultDoubleTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'NegativeValueCheck')
+data.setCell(11, 2, 'test.testng.NegativeLongTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sqrtFromValue')
+data.setCell(12, 2, 'test.testng.SqrtDoubleTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sinFromValue')
+data.setCell(13, 2, 'test.testng.SinDoubleTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'oneValuePlusAnother')
+data.setCell(14, 2, 'test.testng.SumLongTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'oneValueMinusAnother')
+data.setCell(15, 2, 'test.testng.SubDoubleTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'oneValueMinusAnother')
+data.setCell(16, 2, 'test.testng.SubDoubleTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'oneValuePlusAnother')
+data.setCell(17, 2, 'test.testng.SumLongTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'oneValueMinusAnother')
+data.setCell(18, 2, 'test.testng.SubDoubleTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'oneValueDivAnother')
+data.setCell(19, 2, 'test.testng.DivLongTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'NegativeValueCheck')
+data.setCell(20, 2, 'test.testng.NegativeLongTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'oneValuePlusAnother')
+data.setCell(21, 2, 'test.testng.SumLongTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sinFromValue')
+data.setCell(22, 2, 'test.testng.SinDoubleTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'sqrtFromValue')
+data.setCell(23, 2, 'test.testng.SqrtDoubleTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'oneValueDivAnother')
+data.setCell(24, 2, 'test.testng.DivLongTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'sqrtFromValue')
+data.setCell(25, 2, 'test.testng.SqrtDoubleTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'oneValueMultAnother')
+data.setCell(26, 2, 'test.testng.MultDoubleTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'oneValueDivAnother')
+data.setCell(27, 2, 'test.testng.DivLongTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'oneValueMultAnother')
+data.setCell(28, 2, 'test.testng.MultDoubleTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'ctgFromValue')
+data.setCell(29, 2, 'test.testng.CtgDoubleTest')
+data.setCell(29, 3, 0);
+window.suiteTableData['Calculator']= { tableData: data, tableDiv: 'times-div-Calculator'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 64 ms</span>
+              <div id="times-div-Calculator">
+              </div> <!-- times-div-Calculator -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.CtgDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.DivLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.CtgDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ctgFromValue(1, 0.642)</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.DivLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkDivisionByZeroThrowsException</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValueDivAnother(20, 5, 4.0)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">oneValueDivAnother(-9, 6, -1.5)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.DivLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">oneValueDivAnother(1, 10, 0.1)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValueDivAnother(0, 10, 0.0)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">oneValueMultAnother(2.5, 5.7, 14.25)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValueMultAnother(-9.0, 6.0, -54.0)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.DivLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.DivLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.NegativeLongTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NegativeValueCheck(-9, true)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NegativeValueCheck(0, false)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NegativeValueCheck(1, false)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SinDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.NegativeLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">oneValueMultAnother(0.0, 4.0, 0.0)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">oneValueMultAnother(0.7, 0.5, 0.35)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.NegativeLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.NegativeLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SinDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sinFromValue(0.0, 0.0)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sinFromValue(1.0, 0.841)</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sinFromValue(100, -0.506)</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SqrtDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SinDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SqrtDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sqrtFromValue(100.0, 10.0)</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sqrtFromValue(-100.0, NaN)</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sqrtFromValue(0.0, 0.0)</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SqrtDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">oneValueMinusAnother(20.0, 15.0, 5)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValueMinusAnother(-9.0, 6.0, -15.0)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValueMinusAnother(-10.0, -10.0, 0.0)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValueMinusAnother(0.0, 0.0, 0.0)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SqrtDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SqrtDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SqrtDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sqrtFromValue(0.4, 0.632)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sqrtFromValue(0.09, 0.3)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SumLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalc</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SumLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyCalc</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">oneValueMinusAnother(0.05, 0.651123456, -0.601123456)</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SumLongTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">oneValuePlusAnother(20, 15, 35)</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValuePlusAnother(9, 6, 15)</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValuePlusAnother(1, -10, -9)</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneValuePlusAnother(0, 0, 0)</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SumLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">showFinishTestTimeAndDuration</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testng.SumLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">showStartTestTime</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
